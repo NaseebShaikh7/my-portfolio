@@ -1,169 +1,665 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Naseeb Ali Shaikh — Software Engineering student and aspiring developer.">
-  <title>Naseeb Ali Shaikh | Portfolio</title>
+  <meta name="description" content="Naseeb Ali Shaikh | Software Engineering Student, Web Developer and Technology Enthusiast">
+  <title>Naseeb Ali Shaikh | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="header">
-    <nav class="nav container">
-      <a class="logo" href="#home">N<span>.</span></a>
-      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <div class="nav-links" id="navLinks">
-        <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
-        <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow">SOFTWARE ENGINEERING STUDENT</p>
-          <h1>Hi, I'm <span>Naseeb Ali Shaikh</span></h1>
-          <h2>Aspiring Full-Stack Web Developer</h2>
-          <p class="lead">I am an undergraduate Software Engineering student at the University of Sindh, Jamshoro, with a strong interest in frontend and backend web development. I am actively strengthening my backend development skills as I work toward becoming a capable full-stack developer.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#projects">View My Work</a>
-            <a class="btn secondary" href="#contact">Contact Me</a>
-          </div>
-          <p class="small-note">Currently learning, building academic projects, and improving my development skills.</p>
-        </div>
-        <div class="profile-wrap">
-          <img class="profile-photo" src="profile-portfolio.jpg" alt="Naseeb Ali Shaikh in professional black formal attire">
-        </div>
-      </div>
-    </section>
+<div class="loader"><span>N.</span></div>
 
-    <section class="section" id="about">
-      <div class="container narrow">
-        <p class="eyebrow">GET TO KNOW ME</p><h2 class="section-title">About <span>Me</span></h2>
-        <p class="section-text">I am an undergraduate Software Engineering student at the University of Sindh, Jamshoro. I enjoy exploring how software solves real-world problems, developing academic applications, and learning through practical projects.</p>
-        <p class="section-text">My main interest is web development, including both frontend and backend development. I am currently focusing on improving my backend development skills to build stronger, more complete web applications. Outside technology, I have a keen interest in e-commerce and the stock market. I value problem-solving, consistency, teamwork, and continuous learning.</p>
-        <div class="info-grid">
-          <div class="info-card"><strong>Education</strong><span>BS Software Engineering (Undergraduate)</span></div>
-          <div class="info-card"><strong>Institution</strong><span>University of Sindh</span></div>
-          <div class="info-card"><strong>Focus</strong><span>Frontend & Backend Web Development</span></div>
-        </div>
-      </div>
-    </section>
+<header class="header">
+  <nav class="nav container">
+    <a href="#home" class="logo">N<span>.</span></a>
 
-    <section class="section alt" id="objective">
-      <div class="container narrow">
-        <p class="eyebrow">MY DIRECTION</p><h2 class="section-title">Career <span>Objective</span></h2>
-        <div class="highlight-card"><p>To grow as a full-stack web developer by building reliable, user-focused web applications, strengthening my backend development skills, and continuously improving my frontend and software engineering abilities through practical projects and collaboration.</p></div>
-      </div>
-    </section>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
 
-    <section class="section" id="education">
-      <div class="container narrow">
-        <p class="eyebrow">ACADEMIC BACKGROUND</p><h2 class="section-title">My <span>Education</span></h2>
-        <div class="timeline">
-          <article class="timeline-item"><span class="timeline-dot"></span><p class="eyebrow">UNDERGRADUATE</p><h3>BS Software Engineering</h3><p class="muted">University of Sindh, Jamshoro</p><p>Currently pursuing undergraduate studies. Relevant learning areas include programming, databases, software engineering, information security, data science, artificial intelligence, and computer networks.</p></article>
-        </div>
-      </div>
-    </section>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
 
-    <section class="section alt" id="skills">
-      <div class="container">
-        <p class="eyebrow">WHAT I'M LEARNING</p><h2 class="section-title">Technical <span>Skills</span></h2>
-        <p class="section-text">A snapshot of technologies and tools I have used or studied in coursework and projects. I am continuing to develop these skills.</p>
-        <div class="skills-grid">
-          <div class="skill-card"><h3>Frontend Development</h3><p>HTML · CSS · JavaScript</p></div>
-          <div class="skill-card"><h3>Backend Development</h3><p>Python · Actively strengthening backend skills</p></div>
-          <div class="skill-card"><h3>Databases</h3><p>Database concepts · SQL (coursework)</p></div>
-          <div class="skill-card"><h3>Frameworks & Tools</h3><p>Streamlit · Tkinter · VS Code · GitHub · Visual Paradigm</p></div>
-          <div class="skill-card"><h3>Core Areas</h3><p>Software Engineering · Information Security · Data Science</p></div>
-          <div class="skill-card"><h3>Additional Interests</h3><p>E-commerce · Stock Market · Web Deployment</p></div>
-        </div>
-      </div>
-    </section>
+<main>
 
-    <section class="section" id="projects">
-      <div class="container">
-        <p class="eyebrow">SELECTED ACADEMIC WORK</p><h2 class="section-title">My <span>Projects</span></h2>
-        <div class="projects-grid">
-          <article class="project-card"><div class="project-number">01</div><p class="project-type">ACADEMIC PROJECT · IN DEVELOPMENT</p><h3>University Super-App</h3><p>A proposed university platform designed to bring student and campus services together, including QR attendance, GPA prediction, FYP team matching, resource exchange, events, and Lost & Found.</p><div class="tags"><span>Python</span><span>Streamlit</span><span>Database</span></div><p class="project-foot">Role: Planning, requirements analysis, and project development with a team.</p></article>
-          <article class="project-card"><div class="project-number">02</div><p class="project-type">ACADEMIC PROJECT</p><h3>SteganoSafe</h3><p>A desktop application developed to hide and retrieve messages, using encryption to help protect message content during the process.</p><div class="tags"><span>Python</span><span>Tkinter</span><span>Fernet</span><span>SHA-256</span></div><p class="project-foot">Includes separate sender/encryption and receiver/decryption workflows.</p></article>
-          <article class="project-card"><div class="project-number">03</div><p class="project-type">ACADEMIC PROJECT</p><h3>Sentiment Analysis App</h3><p>A simple application that analyzes text and classifies its sentiment as positive, negative, or neutral, with a clear result for the user.</p><div class="tags"><span>Python</span><span>Streamlit</span><span>TextBlob</span><span>NLTK</span></div><p class="project-foot">Built as a practical introduction to text analysis and application development.</p></article>
+<!-- 01 HOME / HERO -->
+<section class="hero" id="home">
+  <div class="hero-grid-bg"></div>
+  <div class="container hero-content">
+
+    <div class="hero-left reveal">
+      <div class="availability">
+        <span class="live-dot"></span>
+        SOFTWARE ENGINEERING STUDENT
+      </div>
+
+      <p class="intro">WELCOME TO MY DIGITAL SPACE</p>
+
+      <h1>
+        Hey, I'm<br>
+        Naseeb Ali<br>
+        <span class="gradient-text">Shaikh.</span>
+      </h1>
+
+      <h2 class="hero-subtitle">
+        Web Developer · Tech Enthusiast · Creative Thinker
+      </h2>
+
+      <p class="hero-description">
+        I'm an undergraduate BS Software Engineering student
+        at the University of Sindh, Jamshoro, passionate about
+        web development, technology and building meaningful
+        digital experiences.
+      </p>
+
+      <p class="hero-description">
+        I enjoy working with frontend technologies while
+        continuously strengthening my backend development
+        skills. Beyond coding, I'm interested in e-commerce,
+        digital business models and the stock market.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">Explore My Work ↗</a>
+        <a href="#contact" class="btn outline">Let's Connect</a>
+      </div>
+
+      <div class="hero-meta">
+        <span>University of Sindh</span>
+        <span>●</span>
+        <span>Pakistan</span>
+      </div>
+    </div>
+
+    <div class="hero-right reveal">
+      <div class="photo-frame">
+        <div class="photo-glow"></div>
+        <img src="profile-portfolio.jpg" alt="Naseeb Ali Shaikh">
+        <div class="photo-label">
+          <span>DEVELOPER</span>
+          <span>ALWAYS LEARNING</span>
         </div>
       </div>
-    </section>
 
-    <section class="section alt" id="case-study">
-      <div class="container narrow">
-        <p class="eyebrow">FEATURED PROJECT</p><h2 class="section-title">Project <span>Case Study</span></h2>
-        <div class="case-card"><h3>University Super-App</h3>
-          <p><strong>Problem:</strong> University activities and student needs can be spread across different manual processes and channels.</p>
-          <p><strong>Proposed solution:</strong> A single platform with modules for attendance, GPA estimation, team matching, resource exchange, campus events, and Lost & Found.</p>
-          <p><strong>My role:</strong> Planning and analysis lead, contributing to scope definition, requirements documentation, business rules, and role-based access planning.</p>
-          <p><strong>Implementation:</strong> The project is being developed using Python and Streamlit, with a modular approach to its features.</p>
-          <p><strong>Current status:</strong> In development as an academic team project.</p>
+      <div class="floating-card">
+        <span class="float-icon">⌘</span>
+        <div>
+          <strong>Ideas to Reality</strong>
+          <small>Through Technology</small>
         </div>
       </div>
-    </section>
+    </div>
 
-    <section class="section" id="experience">
-      <div class="container narrow">
-        <p class="eyebrow">PRACTICAL LEARNING</p><h2 class="section-title">Experience & <span>Training</span></h2>
-        <div class="highlight-card"><h3>Academic Experience</h3><p>Practical experience gained through university coursework, individual programming assignments, software design activities, and collaborative academic projects. No professional employment or internship is listed at this stage.</p></div>
+  </div>
+  <div class="scroll-indicator">SCROLL TO EXPLORE ↓</div>
+</section>
+
+
+<!-- 02 ABOUT ME -->
+<section class="section" id="about">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">01 — GET TO KNOW ME</span>
+      <h2>A little about <span>myself.</span></h2>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-main reveal">
+        <h3>Technology is more than just writing code.</h3>
+
+        <p>
+          I'm Naseeb Ali Shaikh, an undergraduate Software
+          Engineering student at the University of Sindh,
+          Jamshoro. I have a genuine interest in understanding
+          how technology works and how it can be used to solve
+          everyday problems.
+        </p>
+
+        <p>
+          My main area of interest is web development,
+          particularly creating engaging frontend experiences
+          and developing my backend programming abilities.
+          I enjoy exploring different technologies and
+          continuously improving my development skills.
+        </p>
+
+        <p>
+          I'm also curious about the business side of
+          technology. E-commerce, online business models,
+          financial markets and stock market trends are
+          areas I enjoy learning about.
+        </p>
+
+        <p>
+          My approach is simple: keep learning, experiment
+          with ideas, build practical projects and improve
+          with every experience.
+        </p>
       </div>
-    </section>
 
-    <section class="section alt" id="certifications">
-      <div class="container narrow">
-        <p class="eyebrow">CONTINUOUS LEARNING</p><h2 class="section-title">Certifications & <span>Courses</span></h2>
-        <div class="highlight-card"><p>I am developing my knowledge through university coursework and independent learning. Add completed courses, workshops, or verified certificates here when available.</p></div>
-      </div>
-    </section>
-
-    <section class="section" id="achievements">
-      <div class="container narrow">
-        <p class="eyebrow">MILESTONES</p><h2 class="section-title">Achievements & <span>Awards</span></h2>
-        <div class="highlight-card"><p>My current focus is building practical skills and completing academic projects. Verified awards and achievements can be added here as they are earned.</p></div>
-      </div>
-    </section>
-
-    <section class="section alt" id="resume">
-      <div class="container narrow resume-row">
-        <div><p class="eyebrow">MY BACKGROUND AT A GLANCE</p><h2 class="section-title">Resume / <span>CV</span></h2><p class="section-text">View or download my current starter CV. Update the contact and personal details in the CV before sharing it professionally.</p></div>
-        <a class="btn primary" href="cv.pdf" target="_blank" rel="noopener">View / Download CV ↓</a>
-      </div>
-    </section>
-
-    <section class="section" id="profiles">
-      <div class="container narrow">
-        <p class="eyebrow">FIND ME ONLINE</p><h2 class="section-title">Professional <span>Profiles</span></h2>
-        <div class="profile-links">
-          <a href="https://github.com/" target="_blank" rel="noopener">GitHub <span>↗</span></a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn <span>↗</span></a>
+      <div class="about-side">
+        <div class="mini-card reveal">
+          <span>01</span>
+          <h4>Developer</h4>
+          <p>Creating websites and exploring application development.</p>
         </div>
-        <p class="small-note">Replace these links with your personal profile URLs.</p>
+
+        <div class="mini-card reveal">
+          <span>02</span>
+          <h4>Problem Solver</h4>
+          <p>Interested in turning challenges into practical solutions.</p>
+        </div>
+
+        <div class="mini-card reveal">
+          <span>03</span>
+          <h4>Continuous Learner</h4>
+          <p>Improving technical and creative abilities every day.</p>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <section class="section alt" id="contact">
-      <div class="container narrow">
-        <p class="eyebrow">LET'S CONNECT</p><h2 class="section-title">Contact <span>Me</span></h2>
-        <p class="section-text">I am open to learning opportunities, academic collaboration, and connecting with people interested in technology and software development.</p>
-        
-<div class="contact-card">
-  <p><strong>Email</strong></p>
-  <p class="muted">naseebalishaikh455@gmail.com</p>
-  <a class="btn primary" href="mailto:naseebalishaikh455@gmail.com">
-    Send Me an Email
-  </a>
-</div>
 
+<!-- 03 CAREER OBJECTIVE -->
+<section class="section dark-section" id="objective">
+  <div class="container objective reveal">
+    <span class="eyebrow">02 — CAREER OBJECTIVE</span>
+
+    <h2>Learning today.<br>Building for <span>tomorrow.</span></h2>
+
+    <p>
+      My objective is to grow into a skilled full-stack web
+      developer with strong problem-solving abilities.
+      I aim to create reliable, user-focused applications,
+      gain practical industry experience and explore
+      opportunities where technology meets business
+      and innovation.
+    </p>
+  </div>
+</section>
+
+
+<!-- 04 EDUCATION -->
+<section class="section" id="education">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">03 — EDUCATION</span>
+      <h2>My academic <span>journey.</span></h2>
+    </div>
+
+    <div class="education-card reveal">
+      <div class="education-mark">U</div>
+      <div>
+        <span class="eyebrow">UNDERGRADUATE STUDIES</span>
+        <h3>Bachelor of Science in Software Engineering</h3>
+        <h4>University of Sindh, Jamshoro</h4>
+        <p>
+          Currently studying software engineering with a focus
+          on programming, software development, databases,
+          information security and computing concepts.
+        </p>
       </div>
-    </section>
-  </main>
+    </div>
 
-  <footer class="footer"><div class="container footer-inner"><a class="logo" href="#home">N<span>.</span></a><p>© <span id="year"></span> Naseeb Ali Shaikh. Built with HTML, CSS & JavaScript.</p><a href="#home">Back to top ↑</a></div></footer>
-  <script src="script.js"></script>
+  </div>
+</section>
+
+
+<!-- 05 TECHNICAL SKILLS -->
+<section class="section dark-section" id="skills">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">04 — TECHNICAL TOOLKIT</span>
+      <h2>Tools I use to <span>build.</span></h2>
+      <p>Technologies and concepts I have worked with or explored.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">◈</div>
+        <span class="skill-number">01 / DEVELOPMENT</span>
+        <h3>Frontend Development</h3>
+        <p>Creating responsive websites and user-friendly interfaces.</p>
+        <div class="tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">⌘</div>
+        <span class="skill-number">02 / PROGRAMMING</span>
+        <h3>Backend Development</h3>
+        <p>Developing programming logic and strengthening backend skills.</p>
+        <div class="tags">
+          <span>Python</span><span>Application Logic</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">▦</div>
+        <span class="skill-number">03 / DATA</span>
+        <h3>Database Technologies</h3>
+        <p>Understanding data organization, queries and database systems.</p>
+        <div class="tags">
+          <span>SQL</span><span>DBMS</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">⌬</div>
+        <span class="skill-number">04 / TOOLS</span>
+        <h3>Development Tools</h3>
+        <p>Working with tools for application development and deployment.</p>
+        <div class="tags">
+          <span>VS Code</span><span>Streamlit</span><span>Tkinter</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">⛨</div>
+        <span class="skill-number">05 / COMPUTING</span>
+        <h3>Technical Concepts</h3>
+        <p>Exploring core concepts through coursework and projects.</p>
+        <div class="tags">
+          <span>Information Security</span><span>Data Science</span><span>AI</span>
+        </div>
+      </article>
+
+      <article class="skill-card reveal">
+        <div class="skill-icon">↗</div>
+        <span class="skill-number">06 / WORKFLOW</span>
+        <h3>Web Deployment</h3>
+        <p>Learning repository management and publishing websites.</p>
+        <div class="tags">
+          <span>GitHub</span><span>Vercel</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- EXTRA: INTERESTS BEYOND CODE -->
+<section class="section interests-section" id="interests">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">05 — BEYOND THE CODE</span>
+      <h2>Curious about more<br>than <span>technology.</span></h2>
+      <p>
+        My interests extend beyond software development.
+        I enjoy exploring the connection between technology,
+        business and financial markets.
+      </p>
+    </div>
+
+    <div class="interests-grid">
+
+      <article class="interest-card ecommerce reveal">
+        <div class="interest-top">
+          <span class="interest-icon">↗</span>
+          <span>INTEREST / 01</span>
+        </div>
+        <h3>E-commerce & Digital Business</h3>
+        <p>
+          I'm interested in how online businesses operate,
+          how e-commerce platforms create value and how
+          technology transforms the way people discover,
+          purchase and sell products.
+        </p>
+        <div class="interest-tags">
+          <span>Online Business</span>
+          <span>Digital Platforms</span>
+          <span>Business Models</span>
+        </div>
+        <div class="interest-decoration">ECOM</div>
+      </article>
+
+      <article class="interest-card market reveal">
+        <div class="interest-top">
+          <span class="interest-icon">⌁</span>
+          <span>INTEREST / 02</span>
+        </div>
+        <h3>Stock Market & Financial Markets</h3>
+        <p>
+          I enjoy exploring stock market movements,
+          market trends, company performance and the
+          relationship between technology, business
+          and financial markets.
+        </p>
+        <div class="interest-tags">
+          <span>Market Trends</span>
+          <span>Stock Analysis</span>
+          <span>Financial Markets</span>
+        </div>
+        <div class="interest-decoration">MARKET</div>
+      </article>
+
+      <article class="interest-card innovation reveal">
+        <div class="interest-top">
+          <span class="interest-icon">✳</span>
+          <span>INTEREST / 03</span>
+        </div>
+        <h3>Technology & Innovation</h3>
+        <p>
+          I'm curious about emerging technologies,
+          creative digital solutions and the ways
+          software can improve everyday experiences.
+        </p>
+        <div class="interest-tags">
+          <span>Innovation</span>
+          <span>Digital Products</span>
+          <span>New Ideas</span>
+        </div>
+        <div class="interest-decoration">IDEAS</div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- 06 PROJECTS PORTFOLIO -->
+<section class="section dark-section" id="projects">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">06 — PROJECT PORTFOLIO</span>
+      <h2>Selected work & <span>experiments.</span></h2>
+      <p>A collection of academic and practical development projects.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <article class="project-card featured reveal">
+        <div class="project-top">
+          <span>FEATURED PROJECT / 01</span>
+          <span>IN DEVELOPMENT ↗</span>
+        </div>
+        <div class="project-symbol">⌘</div>
+        <h3>University Super-App</h3>
+        <p>
+          An integrated university platform concept designed
+          to bring academic and campus services into one
+          digital environment. Features include QR attendance,
+          GPA prediction, team matching, resource exchange
+          and campus lost-and-found.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Streamlit</span><span>Database</span>
+        </div>
+        <div class="project-bottom">
+          <span>Planning & Requirements Analysis</span>
+          <span>01 / 03</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span>PROJECT / 02</span>
+          <span>ACADEMIC</span>
+        </div>
+        <div class="project-symbol">◉</div>
+        <h3>SteganoSafe</h3>
+        <p>
+          A desktop application for secure message hiding
+          and retrieval, using encryption and integrity
+          verification to protect information.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Tkinter</span>
+          <span>Fernet</span><span>SHA-256</span>
+        </div>
+        <div class="project-bottom">
+          <span>Information Security</span>
+          <span>02 / 03</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-top">
+          <span>PROJECT / 03</span>
+          <span>ACADEMIC</span>
+        </div>
+        <div class="project-symbol">◎</div>
+        <h3>Sentiment Analysis</h3>
+        <p>
+          A text analysis application that identifies
+          sentiment in written content and categorizes
+          it as positive, negative or neutral.
+        </p>
+        <div class="tags">
+          <span>Python</span><span>Streamlit</span>
+          <span>TextBlob</span><span>NLTK</span>
+        </div>
+        <div class="project-bottom">
+          <span>Data Analysis</span>
+          <span>03 / 03</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- 07 PROJECT CASE STUDIES -->
+<section class="section" id="case-studies">
+  <div class="container">
+
+    <div class="section-heading reveal">
+      <span class="eyebrow">07 — PROJECT CASE STUDIES</span>
+      <h2>From problem to <span>solution.</span></h2>
+    </div>
+
+    <div class="case-study reveal">
+      <span class="eyebrow">FEATURED CASE STUDY / UNIVERSITY SUPER-APP</span>
+      <h3>Making university life more connected.</h3>
+
+      <p>
+        The concept focuses on solving disconnected campus
+        processes through one centralized application.
+      </p>
+
+      <div class="case-grid">
+        <div>
+          <span>THE PROBLEM</span>
+          <p>Manual attendance, disconnected resources and fragmented campus services.</p>
+        </div>
+        <div>
+          <span>THE SOLUTION</span>
+          <p>A unified platform for academic and student services.</p>
+        </div>
+        <div>
+          <span>MY CONTRIBUTION</span>
+          <p>Planning, feasibility analysis, SRS and requirements definition.</p>
+        </div>
+        <div>
+          <span>TECHNOLOGY</span>
+          <p>Python, Streamlit and database concepts.</p>
+        </div>
+      </div>
+
+      <div class="case-footer">ACADEMIC TEAM PROJECT · DEVELOPMENT IN PROGRESS</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- 08 EXPERIENCE / TRAINING -->
+<section class="section dark-section" id="experience">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="eyebrow">08 — EXPERIENCE & TRAINING</span>
+      <h2>Experience through <span>practice.</span></h2>
+    </div>
+
+    <div class="highlight-card reveal">
+      <h3>Academic & Practical Development</h3>
+      <p>
+        Building hands-on experience through university
+        coursework, individual programming assignments,
+        application development, software design and
+        collaborative academic projects.
+        Currently focused on improving technical
+        proficiency through practical implementation.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 09 CERTIFICATIONS -->
+<section class="section" id="certifications">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="eyebrow">09 — CERTIFICATIONS & COURSES</span>
+      <h2>Committed to <span>learning.</span></h2>
+    </div>
+
+    <div class="highlight-card reveal">
+      <h3>Continuous Learning</h3>
+      <p>
+        Expanding knowledge through university coursework,
+        independent learning and hands-on technical practice.
+        Verified certificates and completed courses can be
+        added here as they are earned.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 10 ACHIEVEMENTS -->
+<section class="section dark-section" id="achievements">
+  <div class="container">
+    <div class="section-heading reveal">
+      <span class="eyebrow">10 — ACHIEVEMENTS & MILESTONES</span>
+      <h2>Every step <span>counts.</span></h2>
+    </div>
+
+    <div class="highlight-card reveal">
+      <h3>Learning by Building</h3>
+      <p>
+        Developing software projects, experimenting with
+        technologies and applying academic concepts to
+        practical problems. Focused on continuous improvement
+        and meaningful progress.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- 11 RESUME -->
+<section class="section" id="resume">
+  <div class="container resume-box reveal">
+    <div>
+      <span class="eyebrow">11 — RESUME / CV</span>
+      <h2>A closer look at<br><span>my profile.</span></h2>
+      <p>Explore my CV and academic background.</p>
+    </div>
+    <a href="cv.pdf" target="_blank" class="btn primary">
+      View My CV ↗
+    </a>
+  </div>
+</section>
+
+
+<!-- 12 GITHUB AND PROFESSIONAL PROFILES -->
+<section class="section dark-section" id="profiles">
+  <div class="container reveal">
+
+    <div class="section-heading">
+      <span class="eyebrow">12 — DIGITAL PRESENCE</span>
+      <h2>Connect with me <span>online.</span></h2>
+      <p>Explore my projects and professional journey.</p>
+    </div>
+
+    <div class="profile-links">
+      <a href="https://github.com/NaseebShaikh7" target="_blank">
+        <span>01 / CODE REPOSITORIES</span>
+        <h3>GitHub ↗</h3>
+        <p>Explore my development work.</p>
+      </a>
+
+      <a href="https://www.linkedin.com/" target="_blank">
+        <span>02 / PROFESSIONAL NETWORK</span>
+        <h3>LinkedIn ↗</h3>
+        <p>Connect professionally.</p>
+      </a>
+    </div>
+
+    <p class="small-note">
+      Replace the LinkedIn URL with your personal profile URL.
+    </p>
+  </div>
+</section>
+
+
+<!-- 13 CONTACT -->
+<section class="section contact-section" id="contact">
+  <div class="container contact-inner reveal">
+
+    <span class="eyebrow">13 — CONTACT ME</span>
+
+    <h2>Let's create<br><span>something meaningful.</span></h2>
+
+    <p>
+      Interested in technology, development,
+      creative ideas or collaboration?
+      I'd love to connect and exchange ideas.
+    </p>
+
+    <a class="btn primary" href="mailto:naseebalishaikh455@gmail.com">
+      Send Me an Email ↗
+    </a>
+
+    <p class="contact-email">naseebalishaikh455@gmail.com</p>
+  </div>
+</section>
+
+</main>
+
+
+<!-- 14 NAVIGATION AND FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="logo" href="#home">N<span>.</span></a>
+
+    <p>© <span id="year"></span> Naseeb Ali Shaikh. All rights reserved.</p>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
